@@ -820,9 +820,9 @@ function LandingPage({ setPage }: { setPage: (p: Page) => void }) {
       <section className="bg-white py-12 px-12 border-b border-slate-100">
         <div className="flex justify-center gap-16">
           {[
-            { value: "12.500+", label: "Judul Buku" },
-            { value: "8.200+", label: "Mahasiswa Aktif" },
-            { value: "3.400+", label: "Peminjaman/Bulan" },
+            { value: "100+", label: "Judul Buku" },
+            { value: "300+", label: "Mahasiswa Aktif" },
+            { value: "100+", label: "Peminjaman/Bulan" },
             { value: "24/7", label: "Akses Online" },
           ].map(s => (
             <div key={s.label} className="text-center">
